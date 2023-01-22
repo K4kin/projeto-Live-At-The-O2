@@ -58,6 +58,7 @@ body {
     background-color: #1eff0094;
     color: #ffffff;
     margin-top: 80px;
+    margin-left: 2%;
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
@@ -140,8 +141,9 @@ body {
 
 
  p {
-    margin-top: 30px;
-    max-width: 50%;
+    margin-left: 4%;
+    margin-top: 0px;
+    max-width: 60%;
     color:#ffffff
     
 }
@@ -159,7 +161,7 @@ body {
 }
 
 .billie-name {
-  
-    width: 30%;
+    margin-left: 1%;
+    width: 35%;
     height: 20%;
 }
