@@ -133,7 +133,7 @@ body {
 }
 
 .modal iframe {
-    border-width: 0;
+    border-width: 0;;
     width: 640px;
     height: 360px;
 }
@@ -161,6 +161,7 @@ body {
 }
 
 .billie-name {
+   
     margin-left: 1%;
     width: 35%;
     height: 20%;
