@@ -40,6 +40,10 @@
         justify-content: center;
         gap: 10px;
     }
+    .cabecalho .logo {  
+        width: 20%;
+    } 
+   
 
     .container .imagem-titulo {
         max-width: 75%;
@@ -54,11 +58,55 @@
         width: 300px;
         height: 169px;
     }
+   
+    p {
+        margin-left: 4%;
+        margin-top: 20px;
+        max-width: 90000px;
+        color:#ffffff
+
+    } .billie-name  {
+        width: 80%;
+        height: 100px;
+        
+    }
+    .billie {
+        font-size: larger;
+      width: 80%;
+    }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
     .modal #video {
         width: 250px;
         height: 140px;
+    } .cabecalho .logo {  
+        width: 20%;
+    } 
+             
+    
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px; 
+       
     }
+    .billie-name  {
+        width: 80%;
+        height: 100px;
+        
+    }
+    p{
+        margin-left: 4%;
+        margin-top: 20px;
+        max-width: 1000%;
+        color:#ffffff
+    
+    
+    } .billie {
+        font-size: larger;
+        width: 80%;
+        
+    }
+
 }
